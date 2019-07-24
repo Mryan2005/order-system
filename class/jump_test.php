@@ -11,7 +11,6 @@ class jumpTest extends PHPUnit_Framework_TestCase {
         $count_get_action = count($get_action_list);
 		$jump = new jump;
         $actual = $jump->jump($get_actions, $get_action_list,$count_get_action);
-        $this->assertEquals($actual);
 	}
 	function testLoginFail() {
 		$get_actions = 'home';
@@ -23,6 +22,5 @@ class jumpTest extends PHPUnit_Framework_TestCase {
         $count_get_action = count($get_action_list);
 		$jump = new jump;
         $actual = $jump->jump($get_actions, $get_action_list,$count_get_action);
-        $this->assertEquals($actual);
 	}
 }
