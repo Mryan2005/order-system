@@ -1,6 +1,7 @@
 language: php
 php:
   - 7.1.9
+  - 5.4.45
 install:
   - phpunit --version
 script:
