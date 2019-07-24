@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__) . '/classes/class_login.php';
+require_once('class_class.php');
 class jumpTest extends PHPUnit_Framework_TestCase {
 	public function testjumpSuccess() {
         $get_actions = 'admin';
