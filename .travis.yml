@@ -1,0 +1,8 @@
+PHPUnit
+language: php
+php:
+  - 7.1.9
+install:
+  - phpunit --version
+script:
+  - phpunit ./class/jump_test.php
