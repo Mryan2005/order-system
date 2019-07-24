@@ -6,7 +6,7 @@ class jumpTest extends PHPUnit_Framework_TestCase {
         $get_action_list = array(
             'admin',
             'login',
-            'order'
+            'order',
         );
         $count_get_action = count($get_action_list);
 		$jump = new jump;
@@ -17,7 +17,7 @@ class jumpTest extends PHPUnit_Framework_TestCase {
         $get_action_list = array(
             'admin',
             'login',
-            'order'
+            'order',
         );
         $count_get_action = count($get_action_list);
 		$jump = new jump;
