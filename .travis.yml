@@ -4,4 +4,4 @@ php:
 install:
   - phpunit --version
 script:
-  - phpunit ./class/jump_test.php
+  - phpunit class/jump_test.php
