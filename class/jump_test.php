@@ -1,5 +1,5 @@
 <?php
-require_once('class_class.php');
+require_once('jump_class.php');
 class jumpTest extends PHPUnit_Framework_TestCase {
 	public function testjumpSuccess() {
         $get_actions = 'admin';
